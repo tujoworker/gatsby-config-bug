@@ -1,0 +1,16 @@
+{
+  "name": "gatsby-config-bug",
+  "private": true,
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "engines": {
+    "node": "18.13.0",
+    "yarn": ">=1.22.10"
+  },
+  "volta": {
+    "node": "18.13.0",
+    "yarn": "1.22.10"
+  },
+  "packageManager": "yarn@3.4.1"
+}

@@ -34,6 +34,14 @@ You get this error message:
    yarn workspace local-plugin--mjs clean && yarn workspace main-app--mjs clean && yarn workspace main-app--mjs build --verbose && yarn workspace main-app--mjs serve
    ```
 
+## Gatsby v4.24.3
+
+1. ✅ and having `gatsby-browser.tsx` and `gatsby-ssr.tsx` as `*.tsx` files, run:
+
+   ```bash
+   yarn workspace local-plugin--v4 clean && yarn workspace main-app--v4 clean && yarn workspace main-app--v4 build --verbose && yarn workspace main-app--v4 serve
+   ```
+
 ## Observations
 
 You can't mix and match `.mjs` and `.ts`.

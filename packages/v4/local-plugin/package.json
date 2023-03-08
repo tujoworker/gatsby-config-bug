@@ -1,0 +1,25 @@
+{
+  "name": "local-plugin--v4",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts",
+  "author": "Tobias Høegh <tobias@tujo.no>",
+  "scripts": {
+    "start": "gatsby develop --port 8002",
+    "build": "gatsby build",
+    "serve": "gatsby serve --port 8002",
+    "clean": "gatsby clean"
+  },
+  "browserslist": [
+    "supports es6-module"
+  ],
+  "dependencies": {
+    "gatsby": "4.24.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "gatsby-plugin-sass": "6.5.0",
+    "sass": "1.58.0"
+  }
+}
